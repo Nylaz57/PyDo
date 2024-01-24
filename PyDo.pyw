@@ -31,7 +31,7 @@ fenetre.geometry('900x200')
 tree_frame = ttk.Frame(fenetre)
 tree_frame.pack(side=tk.LEFT, padx=10, pady=10, fill=tk.BOTH, expand=True)
 
-columns = ('Liste des tâches', 'Date création', 'Date fixée', 'Temps restant', 'Statut','Date réalisation','ID')
+columns = ('Liste des tâches', 'Date création', 'Date fixée', 'Temps restant', 'Statut','Date réalisation')
 
 tree = ttk.Treeview(tree_frame, columns=columns, show='headings')
 
